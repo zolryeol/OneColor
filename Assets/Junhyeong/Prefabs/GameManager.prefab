@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6223784924885097917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6223784924885097916}
+  - component: {fileID: 6223784924885097919}
+  - component: {fileID: 2046871051}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6223784924885097916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6223784924885097917}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6223784924885097919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6223784924885097917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8babadd88727bbf409d6330833479a86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nowStage: 8
+  boardMaker: {fileID: 0}
+  nowPlayingBoard: {fileID: 0}
+  spriteList:
+  - {fileID: 21300000, guid: c88a5a13fe5c12542bc0a222888744f8, type: 3}
+  - {fileID: 21300000, guid: b98ea32019c61c146bf8c41f21ad1b64, type: 3}
+  - {fileID: 21300000, guid: f844f4626549dfb46b66674a7d50cccc, type: 3}
+  - {fileID: 21300000, guid: 596c808d9aa10d748a716eba2b7249d2, type: 3}
+  - {fileID: 21300000, guid: cd64bc5524021d443b96424912a9fa26, type: 3}
+  - {fileID: 21300000, guid: 8460631cb1b1a1f4489b561f818e7ee0, type: 3}
+  - {fileID: 21300000, guid: b44c0ad12f1bdc34a937280e9e9c1acc, type: 3}
+  - {fileID: 21300000, guid: 90a8d6d52ef3774489a034efd15c8d3b, type: 3}
+  - {fileID: 21300000, guid: d6ecc4700f13a29478235909b1f258ba, type: 3}
+  - {fileID: 21300000, guid: 52216960a0c06a64b8768b292d54e08c, type: 3}
+  - {fileID: 21300000, guid: a4e32e2fdc6e1bf4a9a48114b06d7217, type: 3}
+  - {fileID: 21300000, guid: fe1f93d7d79e7e14aa902034ed22e7d8, type: 3}
+  - {fileID: 21300000, guid: 524104740175d99489815a5e2add2672, type: 3}
+  - {fileID: 21300000, guid: 9fcfd0946bdab314e9093cb5a3caba11, type: 3}
+  becomeBlackTime: 3
+  returnOriColorTime: 3
+  moveTileMovingTime: 2
+  illSpreadTime: 5
+  missionColor: 0
+  clearParticlePrefabs:
+  - {fileID: 2377643134105103980, guid: a14b622083de9954ba42f1b8be348e27, type: 3}
+  - {fileID: 2377643134105103980, guid: a983686843212124a8cfc8cb1e62a08c, type: 3}
+  - {fileID: 2377643134105103980, guid: 9e1bc65a3fdc0a241b048c51b01ac5c7, type: 3}
+  - {fileID: 2377643134105103980, guid: cd9b74501dff0434ebce5b38ff2e5f2b, type: 3}
+  backGroundObject:
+  - {fileID: 281332341530378231, guid: a136ec75bde57704c870ce93795e8038, type: 3}
+  - {fileID: 281332341530378231, guid: b02f1d9ad1b097b4998ea5c26c54e602, type: 3}
+  - {fileID: 281332341530378231, guid: 47aa170a9e493fb43bf906d0ea61600f, type: 3}
+  - {fileID: 281332341530378231, guid: 2203e995ce2b62c40a9f1aea3d92524a, type: 3}
+  usingParticleIndex: 3
+  startEndParticle: {fileID: 644063810958210546, guid: 72e16cce68d65244a86cde8d668695f5, type: 3}
+  stageStartLevel:
+  - StarLevel: 3200000064000000c8000000
+  - StarLevel: 3200000064000000c8000000
+  - StarLevel: 000000000000000000000000
+  - StarLevel: 000000000000000000000000
+  - StarLevel: 000000000000000000000000
+  - StarLevel: 000000000000000000000000
+  - StarLevel: 000000000000000000000000
+  isClearChapter: 0
+--- !u!114 &2046871051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6223784924885097917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 161c6ef7ba76a8144805f3b6390f57b1, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: TestMaps
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}

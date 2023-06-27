@@ -1,0 +1,79 @@
+{
+    "name": "TestInput",
+    "maps": [
+        {
+            "name": "TestMaps",
+            "id": "712f6a56-07be-47bd-bbc6-e70ee08946bf",
+            "actions": [
+                {
+                    "name": "Test",
+                    "type": "Button",
+                    "id": "c6280a76-4612-418c-8cb4-2c9219f22092",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9ae845be-1891-4868-88d2-ea120973945d",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Test",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "MobileInput",
+            "id": "6fb8e9e3-019c-4fc4-b346-7321c00f4bf8",
+            "actions": [
+                {
+                    "name": "ESC",
+                    "type": "Button",
+                    "id": "90ecf342-aa8c-4962-8b71-63bf2444cde9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c151424e-de30-4209-9e37-a9f424d38322",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mobile",
+                    "action": "ESC",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mobile",
+            "bindingGroup": "Mobile",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+repository "OneColor@jjunyjjun@cloud"
+  path "/"
+    br "/main"
+    co "/main"
